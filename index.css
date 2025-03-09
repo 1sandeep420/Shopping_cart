@@ -532,13 +532,18 @@ footer
 
 #Get_in_Touch
 {
-    width: 7rem;
+    width: 8rem;
     text-align: center;
 }
 
 #Get_in_Touch img
 {
     width: 0.5rem;
+}
+
+footer
+{
+    margin: 0px;
 }
 
 #quicklinks
