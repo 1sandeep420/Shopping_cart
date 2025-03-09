@@ -472,9 +472,15 @@ footer
     width: 2rem;
     font-size: 0.5rem;
 }
+
+#Categories
+{
+    margin: 2px;
+}
+
 #Categories div
 {
-    margin: 1rem;
+   
     width: 12rem;
 }
 #Catageory_main div
