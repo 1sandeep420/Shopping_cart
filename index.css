@@ -90,7 +90,7 @@ body
    grid-row: 1 / span 2; 
    grid-column: 1 / span 2;
    overflow: hidden;
-   background-image: url(../Shopping/Assets/img/carousel-1.jpg);
+   background-image: url(Assets/img/carousel-1.jpg);
    background-repeat: no-repeat;
 }
 #page3
@@ -103,7 +103,7 @@ body
     grid-row: 1;
     grid-column: 3;
     color: white;
-    background-image: url(../Shopping/Assets/img/carousel-2.jpg);
+    background-image: url(Assets/img/carousel-2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -117,7 +117,7 @@ body
     background-color: blue;
     grid-row: 2;
     color: white;
-    background-image: url(../Shopping/Assets/img/carousel-3.jpg);   
+    background-image: url(Assets/img/carousel-3.jpg);   
     background-size:cover
 }
 
