@@ -374,6 +374,10 @@ footer
     width: 100%; /* Ensure grid spans full width */  
 }
 
+body{
+    margin: 0px;
+}
+
     #page1 {   
         display: flex;
         flex-direction: column;
