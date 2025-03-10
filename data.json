@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "name": "Sandeep Kumar",
+    "price": "Web Developer",
+    "img": "https://randomuser.me/api/portraits/men/1.jpg",
+    "text": "S scalable web applications.",
+    "Category": "Women products"
+},
+{
+    "id": 2,
+    "name": "Sandeep Kumar",
+    "price": "Web Developer",
+    "img": "https://randomuser.me/api/portraits/men/1.jpg",
+    "text": "S scalable web applications.",
+    "Category": "Cosmetics"
+}
+,
+{
+    "id": 3,
+    "name": "Sandeep Kumar",
+    "price": "Web Developer",
+    "img": "https://randomuser.me/api/portraits/men/1.jpg",
+    "text": "S scalable web applications.",
+    "Category": "Electronics"
+}
+,
+{
+    "id": 4,
+    "name": "Sandeep Kumar",
+    "price": "Web Developer",
+    "img": "https://randomuser.me/api/portraits/men/1.jpg",
+    "text": "S scalable web applications.",
+    "Category": "Shoes"
+}
+]
+
