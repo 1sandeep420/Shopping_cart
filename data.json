@@ -4,14 +4,14 @@
     "price": "Web Developer",
     "img": "https://randomuser.me/api/portraits/men/1.jpg",
     "text": "S scalable web applications.",
-    "Category": "Women products"
+    "Category": "Women"
 },
 {
     "id": 2,
-    "name": "Sandeep Kumar",
-    "price": "Web Developer",
-    "img": "https://randomuser.me/api/portraits/men/1.jpg",
-    "text": "S scalable web applications.",
+    "name": "Sunscreen",
+    "price": "200",
+    "img": "https://randomuser.me/api/portraits/men/25.jpg",
+    "text": "Hydration expert",
     "Category": "Cosmetics"
 }
 ,
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Sandeep Kumar",
     "price": "Web Developer",
-    "img": "https://randomuser.me/api/portraits/men/1.jpg",
+    "img": "https://randomuser.me/api/portraits/men/45.jpg",
     "text": "S scalable web applications.",
     "Category": "Electronics"
 }
@@ -28,7 +28,7 @@
     "id": 4,
     "name": "Sandeep Kumar",
     "price": "Web Developer",
-    "img": "https://randomuser.me/api/portraits/men/1.jpg",
+    "img": "https://randomuser.me/api/portraits/men/3.jpg",
     "text": "S scalable web applications.",
     "Category": "Shoes"
 }
