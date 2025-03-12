@@ -1,36 +1,404 @@
-[{
-    "id": 1,
-    "name": "Sandeep Kumar",
-    "price": "Web Developer",
-    "img": "https://randomuser.me/api/portraits/men/1.jpg",
-    "text": "S scalable web applications.",
-    "Category": "Women"
-},
-{
-    "id": 2,
-    "name": "Sunscreen",
-    "price": "200",
-    "img": "https://randomuser.me/api/portraits/men/25.jpg",
-    "text": "Hydration expert",
-    "Category": "Cosmetics"
-}
-,
-{
-    "id": 3,
-    "name": "Sandeep Kumar",
-    "price": "Web Developer",
-    "img": "https://randomuser.me/api/portraits/men/45.jpg",
-    "text": "S scalable web applications.",
-    "Category": "Electronics"
-}
-,
-{
-    "id": 4,
-    "name": "Sandeep Kumar",
-    "price": "Web Developer",
-    "img": "https://randomuser.me/api/portraits/men/3.jpg",
-    "text": "S scalable web applications.",
-    "Category": "Shoes"
-}
+[ 
+    {
+      "id": 1,
+      "name": "Fashionable Dress",
+      "price": "$50",
+      "img": "https://randomuser.me/api/portraits/men/1.jpg",
+      "text": "Stylish and trendy dress perfect for any occasion.",
+      "Category": "Women"
+    },
+    {
+      "id": 2,
+      "name": "Lipstick Matte Finish",
+      "price": "$20",
+      "img": "https://randomuser.me/api/portraits/men/2.jpg",
+      "text": "Long-lasting, matte lipstick for a bold and flawless look.",
+      "Category": "Cosmetics"
+    },
+    {
+      "id": 3,
+      "name": "Smartphone 5G",
+      "price": "$800",
+      "img": "https://randomuser.me/api/portraits/men/3.jpg",
+      "text": "Latest 5G smartphone with high performance and sleek design.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 4,
+      "name": "Running Sneakers",
+      "price": "$60",
+      "img": "https://randomuser.me/api/portraits/men/4.jpg",
+      "text": "Comfortable running shoes designed for performance and comfort.",
+      "Category": "Shoes"
+    },
+    {
+      "id": 5,
+      "name": "Perfume Spray",
+      "price": "$35",
+      "img": "https://randomuser.me/api/portraits/men/5.jpg",
+      "text": "Floral-scented perfume that lasts all day long.",
+      "Category": "Cosmetics"
+    },
+    {
+      "id": 6,
+      "name": "Casual Jacket",
+      "price": "$45",
+      "img": "https://randomuser.me/api/portraits/men/6.jpg",
+      "text": "Stylish and casual jacket for every occasion.",
+      "Category": "Women"
+    },
+    {
+      "id": 7,
+      "name": "Sunglasses",
+      "price": "$25",
+      "img": "https://randomuser.me/api/portraits/men/7.jpg",
+      "text": "UV-protection sunglasses with a chic design.",
+      "Category": "Accessories"
+    },
+    {
+      "id": 8,
+      "name": "Digital Watch",
+      "price": "$150",
+      "img": "https://randomuser.me/api/portraits/men/8.jpg",
+      "text": "A sleek and modern digital watch with all the features you need.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 9,
+      "name": "Wireless Headphones",
+      "price": "$120",
+      "img": "https://randomuser.me/api/portraits/men/9.jpg",
+      "text": "Noise-cancelling wireless headphones for the ultimate listening experience.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 10,
+      "name": "Canvas Shoes",
+      "price": "$30",
+      "img": "https://randomuser.me/api/portraits/men/10.jpg",
+      "text": "Casual canvas shoes perfect for everyday wear.",
+      "Category": "Shoes"
+    },
+    {
+      "id": 11,
+      "name": "Yoga Mat",
+      "price": "$20",
+      "img": "https://randomuser.me/api/portraits/men/11.jpg",
+      "text": "Non-slip yoga mat for your daily workout.",
+      "Category": "Sports"
+    },
+    {
+      "id": 12,
+      "name": "Leather Wallet",
+      "price": "$40",
+      "img": "https://randomuser.me/api/portraits/men/12.jpg",
+      "text": "Premium leather wallet with multiple compartments.",
+      "Category": "Accessories"
+    },
+    {
+      "id": 13,
+      "name": "Branded T-shirt",
+      "price": "$25",
+      "img": "https://randomuser.me/api/portraits/men/13.jpg",
+      "text": "Comfortable and stylish t-shirt with brand logo.",
+      "Category": "Men"
+    },
+    {
+      "id": 14,
+      "name": "Skin Moisturizer",
+      "price": "$18",
+      "img": "https://randomuser.me/api/portraits/men/14.jpg",
+      "text": "Hydrating skin moisturizer for all skin types.",
+      "Category": "Cosmetics"
+    },
+    {
+      "id": 15,
+      "name": "Sleek Laptop",
+      "price": "$1000",
+      "img": "https://randomuser.me/api/portraits/men/15.jpg",
+      "text": "Powerful laptop with the latest Intel processor.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 16,
+      "name": "Smart TV 4K",
+      "price": "$500",
+      "img": "https://randomuser.me/api/portraits/men/16.jpg",
+      "text": "Experience your favorite movies in stunning 4K resolution.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 17,
+      "name": "Designer Handbag",
+      "price": "$250",
+      "img": "https://randomuser.me/api/portraits/men/17.jpg",
+      "text": "Elegant designer handbag for sophisticated women.",
+      "Category": "Women"
+    },
+    {
+      "id": 18,
+      "name": "Wireless Charger",
+      "price": "$30",
+      "img": "https://randomuser.me/api/portraits/men/18.jpg",
+      "text": "Fast and efficient wireless charger for your devices.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 19,
+      "name": "Sports Shoes",
+      "price": "$70",
+      "img": "https://randomuser.me/api/portraits/men/19.jpg",
+      "text": "Durable sports shoes for maximum comfort and performance.",
+      "Category": "Shoes"
+    },
+    {
+      "id": 20,
+      "name": "Designer Sunglasses",
+      "price": "$150",
+      "img": "https://randomuser.me/api/portraits/men/20.jpg",
+      "text": "High-end designer sunglasses with UV protection.",
+      "Category": "Accessories"
+    },
+    {
+      "id": 21,
+      "name": "Casual Hoodie",
+      "price": "$40",
+      "img": "https://randomuser.me/api/portraits/men/21.jpg",
+      "text": "Comfortable hoodie perfect for relaxed days.",
+      "Category": "Women"
+    },
+    {
+      "id": 22,
+      "name": "Bluetooth Earbuds",
+      "price": "$80",
+      "img": "https://randomuser.me/api/portraits/men/22.jpg",
+      "text": "High-quality Bluetooth earbuds with crystal-clear sound.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 23,
+      "name": "Silk Scarf",
+      "price": "$55",
+      "img": "https://randomuser.me/api/portraits/men/23.jpg",
+      "text": "Elegant silk scarf for a touch of luxury.",
+      "Category": "Women"
+    },
+    {
+      "id": 24,
+      "name": "Bluetooth Speaker",
+      "price": "$90",
+      "img": "https://randomuser.me/api/portraits/men/24.jpg",
+      "text": "Portable Bluetooth speaker for listening on the go.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 25,
+      "name": "Luxury Watch",
+      "price": "$200",
+      "img": "https://randomuser.me/api/portraits/men/25.jpg",
+      "text": "Premium luxury watch with exquisite craftsmanship.",
+      "Category": "Accessories"
+    },
+    {
+      "id": 26,
+      "name": "Sweater Knit",
+      "price": "$35",
+      "img": "https://randomuser.me/api/portraits/men/26.jpg",
+      "text": "Cozy knit sweater for those chilly days.",
+      "Category": "Women"
+    },
+    {
+      "id": 27,
+      "name": "Casual Shorts",
+      "price": "$22",
+      "img": "https://randomuser.me/api/portraits/men/27.jpg",
+      "text": "Comfortable and breathable shorts for casual outings.",
+      "Category": "Men"
+    },
+    {
+      "id": 28,
+      "name": "Wireless Mouse",
+      "price": "$25",
+      "img": "https://randomuser.me/api/portraits/men/28.jpg",
+      "text": "Wireless mouse with ergonomic design for comfort.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 29,
+      "name": "Leather Belt",
+      "price": "$40",
+      "img": "https://randomuser.me/api/portraits/men/29.jpg",
+      "text": "High-quality leather belt for both style and durability.",
+      "Category": "Accessories"
+    },
+    {
+      "id": 30,
+      "name": "Winter Jacket",
+      "price": "$120",
+      "img": "https://randomuser.me/api/portraits/men/30.jpg",
+      "text": "Warm winter jacket for harsh weather conditions.",
+      "Category": "Women"
+    },
+    {
+      "id": 31,
+      "name": "Portable Power Bank",
+      "price": "$40",
+      "img": "https://randomuser.me/api/portraits/men/31.jpg",
+      "text": "Portable power bank to keep your devices charged on the go.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 32,
+      "name": "Fitness Tracker",
+      "price": "$60",
+      "img": "https://randomuser.me/api/portraits/men/32.jpg",
+      "text": "Track your fitness goals with this advanced fitness tracker.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 33,
+      "name": "Smartwatch",
+      "price": "$180",
+      "img": "https://randomuser.me/api/portraits/men/33.jpg",
+      "text": "Smartwatch with fitness tracking and notifications.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 34,
+      "name": "Handbag Leather",
+      "price": "$120",
+      "img": "https://randomuser.me/api/portraits/men/34.jpg",
+      "text": "Luxurious leather handbag for the stylish woman.",
+      "Category": "Women"
+    },
+    {
+      "id": 35,
+      "name": "Bluetooth Keyboard",
+      "price": "$50",
+      "img": "https://randomuser.me/api/portraits/men/35.jpg",
+      "text": "Wireless Bluetooth keyboard for convenient typing.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 36,
+      "name": "Portable Speaker",
+      "price": "$70",
+      "img": "https://randomuser.me/api/portraits/men/36.jpg",
+      "text": "Compact and portable speaker for powerful sound.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 37,
+      "name": "Laptop Sleeve",
+      "price": "$25",
+      "img": "https://randomuser.me/api/portraits/men/37.jpg",
+      "text": "Protective laptop sleeve for safe storage.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 38,
+      "name": "Socks Woolen",
+      "price": "$15",
+      "img": "https://randomuser.me/api/portraits/men/38.jpg",
+      "text": "Cozy woolen socks to keep your feet warm.",
+      "Category": "Men"
+    },
+    {
+      "id": 39,
+      "name": "Winter Gloves",
+      "price": "$25",
+      "img": "https://randomuser.me/api/portraits/men/39.jpg",
+      "text": "Warm winter gloves for cold days.",
+      "Category": "Men"
+    },
+    {
+      "id": 40,
+      "name": "Mini Fridge",
+      "price": "$90",
+      "img": "https://randomuser.me/api/portraits/men/40.jpg",
+      "text": "Compact mini fridge perfect for any small space.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 41,
+      "name": "Backpack Travel",
+      "price": "$75",
+      "img": "https://randomuser.me/api/portraits/men/41.jpg",
+      "text": "Travel backpack with multiple compartments for convenience.",
+      "Category": "Accessories"
+    },
+    {
+      "id": 42,
+      "name": "Sunglasses Polarized",
+      "price": "$50",
+      "img": "https://randomuser.me/api/portraits/men/42.jpg",
+      "text": "Polarized sunglasses for ultimate eye protection.",
+      "Category": "Accessories"
+    },
+    {
+      "id": 43,
+      "name": "Waterproof Jacket",
+      "price": "$130",
+      "img": "https://randomuser.me/api/portraits/men/43.jpg",
+      "text": "Waterproof jacket to keep you dry in any weather.",
+      "Category": "Women"
+    },
+    {
+      "id": 44,
+      "name": "Smartphone Case",
+      "price": "$15",
+      "img": "https://randomuser.me/api/portraits/men/44.jpg",
+      "text": "Durable and stylish smartphone case for protection.",
+      "Category": "Accessories"
+    },
+    {
+      "id": 45,
+      "name": "Cotton Sweater",
+      "price": "$40",
+      "img": "https://randomuser.me/api/portraits/men/45.jpg",
+      "text": "Comfortable cotton sweater for chilly weather.",
+      "Category": "Women"
+    },
+    {
+      "id": 46,
+      "name": "Headphones Wired",
+      "price": "$30",
+      "img": "https://randomuser.me/api/portraits/men/46.jpg",
+      "text": "Wired headphones for clear sound quality.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 47,
+      "name": "Raincoat Transparent",
+      "price": "$55",
+      "img": "https://randomuser.me/api/portraits/men/47.jpg",
+      "text": "Transparent raincoat to keep you dry in the rain.",
+      "Category": "Women"
+    },
+    {
+      "id": 48,
+      "name": "Jeans Slim Fit",
+      "price": "$45",
+      "img": "https://randomuser.me/api/portraits/men/48.jpg",
+      "text": "Slim fit jeans with a comfortable stretch.",
+      "Category": "Men"
+    },
+    {
+      "id": 49,
+      "name": "Compact Camera",
+      "price": "$250",
+      "img": "https://randomuser.me/api/portraits/men/49.jpg",
+      "text": "Portable and compact camera for everyday photography.",
+      "Category": "Electronics"
+    },
+    {
+      "id": 50,
+      "name": "Blender",
+      "price": "$100",
+      "img": "https://randomuser.me/api/portraits/men/50.jpg",
+      "text": "High-performance blender for smoothies and shakes.",
+      "Category": "Electronics"
+    }
+  
+  
 ]
-

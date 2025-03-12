@@ -4,19 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="Stylesheet" href="../Shopping/Products.css">
+    <link rel="Stylesheet" href="Products.css">
+    <link rel="Stylesheet" href="index.css">
+    
 </head>
 <body>
 
+    <div class="bottomBar">
+        <div class="Catageory"> 
+                <select>
+                    <option value="">Categories</option>
+                    <option value="">Fashion</option>
+                    <option value="">Electronics</option>
+                    <option value="">Accesories</option>
+                </select>            
+            <ul id="options">
+                <li>Home</li>
+                <li>Shop</li>
+                <li>Shop Detail</li>
+                <li>Pages</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="addTo">  
+            <i class="fas fa-shopping-cart"></i>
+            <span>0</span>
+            <i class="fas fa-heart"></i>
+            <span>0</span>
+        </div> 
+        <div id="Sidetag">
+            <i class="fas fa-shopping-cart"></i>
+            <span>0</span>
+            <i class="fas fa-heart"></i>
+            <span>0</span>
+            <i id="Bars" class="fas fa-bars"></i>
+        </div>  
+   </div>
+
+   <div>
+    <ul id="After">
+        <li>Home</li>
+        <li>Shop</li>
+        <li>Shop Detail</li>
+        <li>Pages</li>
+        <li>Contact</li>
+        <a id="close">Close ✖</a>
+    </ul>
+   </div>
+<!------------------------------------------------------------>
     <div id="products">
+
     </div>
 
-    
     <div id="Images">
     </div>
+   <div id="cart-container">
+        <h3>Your Cart</h3>
+        <!-- Cart items will be dynamically added here -->
+    </div>
+
+    <button id="cart-toggle-btn">Cart</button>
+<!------------------------------------------------------------>
+
+    <footer>
+        <div id="Get_in_Touch">
+         <h2  style="color: #ffd000;">GET IN TOUCH</h2>
+         <span id="Stay">Stay connected with us for updates, support, and collaboration opportunities.</span>
+         <div class="social-links">  
+             <div>
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" width="20">
+                 <span>shopcart@gmail.com</span>
+             </div>
+           <div>
+             <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" width="20">
+             <span>Shopcart.in</span>
+           </div>
+            <div>
+             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="20">
+             <span>75698758090</span>
+            </div>
+         </div>
+        </div>
+        <div id="News_letter">
+         <h2  style="color: #ffd000;">NEWSLETTER</h2>
+         <span>Subscribe to our newsletter for updates, insights, offers, and exclusive content.</span>
+         <div id="newletter_mail">
+             <input type="text" placeholder="mail@gmail.com">
+             <button>sinup</button>
+         </div>
+        </div>
+        <div id="quicklinks">
+         <h2  style="color: #ffd000;">QUICK LINKS</h2>
+         <a href="">SignUp</a>
+         <a href="">Categories</a>
+         <a href="">Recents</a>
+         <a href="">Partners</a>
+         <a href="">Contacts</a>
+        </div>
+     </footer>
+ 
+ 
+  
     
 </body>
 
 
 <script src="Products.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 </html>

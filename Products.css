@@ -1,0 +1,403 @@
+/* General container for the item details */
+.Details {
+    border: 1px solid #ddd; /* Light border */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: #fff; /* White background */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content */
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .Details:hover {
+    transform: translateY(-5px); /* Slight hover effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  /* Image styling */
+  .Details img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Keeps aspect ratio and covers the container */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 15px;
+  }
+  
+  /* Title styling */
+  .Details span {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: center; /* Center the text */
+    font-weight: normal;
+  }
+  
+  .Details .Title {
+    font-size: 18px;
+    font-weight: bold; /* Make title bold */
+    color: #000; /* Darker color for title */
+    margin-bottom: 10px; /* Add spacing after title */
+  }
+  
+  /* Price styling */
+  .Details .Price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c; /* Red color for price */
+    margin-bottom: 10px;
+  }
+  
+  /* Text description styling */
+  .Details .Text {
+    font-size: 14px;
+    color: #666;
+    text-align: center; /* Center align the text */
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  /* Container for all images and details */
+#Images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Create a responsive grid */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Padding around the container */
+    justify-items: center; /* Center the items within their grid cells */
+  }
+
+  .add-to-cart {
+    background-color: #fbff28; /* Green background */
+    color: rgb(34, 33, 33); /* White text */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.add-to-cart:hover {
+    background-color: #dbd81e; /* Darker green when hovered */
+}
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 600px) {
+    #Images {
+      grid-template-columns: 1fr; /* One column on small screens */
+      padding: 10px;
+    }
+  }
+
+  .Details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Sidebar cart container style */
+#cart-container {
+    position: fixed;
+    top: 37%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    background-color: #42423c;
+    box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    border-radius: 10px 0 0 10px;
+    z-index: 9999;
+    display: none; /* Hidden by default */
+}
+
+#cart-container h3 {
+    margin-top: 0;
+}
+
+#cart-container .cart-item {
+    background-color: #242121;
+    padding: 10px;
+    margin: 5px 0;
+    height: 6rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 16rem;
+   
+}
+
+#cart-container .cart-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#cart-container .cart-item div {
+    flex-grow: 1;
+}
+
+.quantity-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-buttons button {
+    background-color: #e0d8d8;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+.quantity-buttons button:hover {
+    background-color: #ddd;
+}
+.Input
+{
+    width: 1px;
+   
+   
+}
+
+.remove-btn {
+    display: flex;
+    
+    background-color: #dc3545;
+    color: white;
+    position: relative;
+    right: 6.2rem;
+    top: 2rem;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
+
+/* Cart Toggle Button */
+#cart-toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#cart-toggle-btn:hover {
+    background-color: #218838;
+}
+
+.Input
+{
+
+    width: 3rem;
+    text-align: center;
+
+}
+.checkout-btn {
+    background-color: #28a745; /* Green background */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.checkout-btn:active {
+    background-color: #1e7e34; /* Even darker green on click */
+}
+
+
+@media (max-width: 300px) and (max-width:1200px) {
+    #Images {
+      grid-template-columns: 1fr; /* One column on small screens */
+      padding: 10px;
+    }   
+  }
+
+  @media (min-width: 300px) and (max-width: 1000px) {
+    #Images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1px; /* Reduce space between items */
+        padding: 0px;
+        
+        
+    }
+
+    .Details {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        width: calc(33.33% - 10px); /* Fit three items in a row */
+        max-width: 120px;
+        box-sizing: border-box;
+    }
+
+    .Details img {
+        width: 100%;
+        max-width: 80px; /* Smaller images */
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .Details span {
+        font-size: 12px; /* Reduce text size */
+        margin: 2px 0;
+    }
+ 
+}
+
+/* Default Cart Styling */
+
+
+/* Adjust Cart Size for Small Screens */
+@media (min-width: 300px) and (max-width:1200px) {
+    #cart-container {
+        width: 250px;
+        height: 350px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 300px) and (max-width:1200px) {
+    #cart-container {
+        width: 220px;
+        height: 320px;
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 300px) and (max-width:1200px) {
+    #cart-container {
+        width: 180px;  /* Even smaller for very small screens */
+        height: 280px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    #cart-container h3 {
+        font-size: 14px;
+    }
+
+    #cart-container .cart-item {
+        font-size: 12px;
+        height: 5rem;
+    }
+
+    #cart-container .cart-item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .remove-btn {
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    #cart-container {
+        width: 150px;
+        height: 250px;
+        padding: 4px;
+        font-size: 10px;
+       
+       
+        
+    }
+
+    #cart-container .cart-item {
+        font-size: 10px;
+        height: 4rem;
+        width: 12rem;
+        height: 4rem;
+    }
+    
+
+    #cart-container .cart-item img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .remove-btn {
+        font-size: 8px;
+        padding: 1px;
+   
+    }
+
+    .quantity-buttons button
+    {
+        width: 1px;
+       
+        text-align: center;
+    }
+
+    .Input 
+    {
+       
+        width: 1rem;
+    }
+
+    
+    
+}
+
+
+
+
+
