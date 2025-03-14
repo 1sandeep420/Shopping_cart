@@ -67,6 +67,7 @@
     gap: 20px; /* Space between grid items */
     padding: 20px; /* Padding around the container */
     justify-items: center; /* Center the items within their grid cells */
+    height: 100%
   }
 
   .add-to-cart {
